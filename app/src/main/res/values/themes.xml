@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.PTDEISplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ptdei</item>
+        <item name="postSplashScreenTheme">@style/Theme.PTDEI</item>
+    </style>
+
+    <style name="Theme.PTDEI" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
